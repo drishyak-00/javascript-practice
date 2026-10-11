@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 40px 15px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000015;
+}
+
+h1 {
+    text-align: center;
+    color: #243b53;
+}
+
+.task-input {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+    padding: 10px;
+    background: #f1f5f9;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li button {
+    background: #dc2626;
+    flex-shrink: 0;
+}
